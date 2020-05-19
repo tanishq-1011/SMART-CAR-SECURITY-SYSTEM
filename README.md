@@ -5,11 +5,7 @@
 - If Owner grants the access, car will start. If access is denied car will be locked  and an image and location will be sent to a nearby policestation .
 - Detects sleepy state of driver and rings an alarm if driver is drowsy .
 
-## Images of Model
-![](/images/home.jpg)
-![](/images/unknown.jpg)
-![](/images/drowsy.jpg)
-![](/images/app.jpg)
+## Images of the model are in image folder
 
 ## Requirements
 > IMPORTANT
