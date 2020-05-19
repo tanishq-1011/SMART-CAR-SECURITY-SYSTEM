@@ -1,17 +1,17 @@
 # Smart Car Security Sysem
 - Camera captures image of the driver, if owner is detected, car will start.
-If unknown person is detected, image of the person is displayed on owners mobile phone.
-Owner is notified by a danger call when an unknown person is detected.
-If Owner grants the access, car will start. If access is denied car will be locked  and an image and location will be sent to a nearby policestation .
- Detects sleepy state of driver and rings an alarm if driver is drowsy .
-Android Application notifies driver about Nearby Places.(eg. Hospitals, Hotels, etc).
-Parental Control  for young drivers.
-Detects whether the driver is drunk or not and then notified on the app.
-Emergency messages to the registered contacts and to emergency service providers.
+- If unknown person is detected, image of the person is displayed on owners mobile phone.
+- Owner is notified by a danger call when an unknown person is detected.
+- If Owner grants the access, car will start. If access is denied car will be locked  and an image and location will be sent to a nearby policestation .
+- Detects sleepy state of driver and rings an alarm if driver is drowsy .
 
+## Images of Model
+![](/images/home.jpg)
+![](/images/unknown.jpg)
+![](/images/drowsy.jpg)
+![](/images/app.jpg)
 
 ## Requirements
-> 
 > IMPORTANT
 
   Download `shape_predictor_68_face_landmarks.dat.bz2` from [Shape Predictor 68 features](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) 
@@ -39,7 +39,7 @@ Run script using:
 Run script using:
 
     python face_and_eye_detector_webcam_video.py
-### Drowsiness Detection
+### Unknown and Drowsiness Detection
 Run script using:
 
     python drowsiness_detect.py
